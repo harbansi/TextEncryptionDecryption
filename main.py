@@ -77,7 +77,7 @@ def decryption():
   # Get the user entered values
     cipher_text = user_text1.get()
     plain_text = ""
-    key = 3
+    key = int(user_text2.get())
 
     for i in range(len(cipher_text)):
         letter = cipher_text[i]
