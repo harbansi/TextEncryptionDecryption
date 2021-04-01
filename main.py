@@ -7,7 +7,7 @@ from tkinter.ttk import *
 root = tk.Tk()
 
 # For changing the icon of the title bar
-root.iconbitmap(r'C:\Users\harbansi21\Desktop\python\caeser cipher Project\favicon.ico')
+root.iconbitmap(r'favicon.ico')
 root.title("Text Encryptor-Decryptor Using Caeser cipher")
 root.geometry("450x550") 
 root.resizable(width=FALSE, height=FALSE)
